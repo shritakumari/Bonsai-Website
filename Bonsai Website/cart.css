@@ -1,0 +1,90 @@
+
+body {
+    background-image: url(https://img.freepik.com/premium-photo/landscape-clouds_1006754-704.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    /* display: flex; */
+    /* justify-content: space-around; */
+    /* align-items: flex-start; */
+    /* margin: 20px; */
+}
+
+.product {
+    border: 2px solid #111111;
+    padding: 20px;
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    border-radius: 8px;
+    margin-left: 5%;
+}
+
+.product h2 {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+}
+
+.price {
+    font-size: 1.2em;
+    color: #0e0606;
+    margin: 10px 0;
+}
+
+.add-to-cart-btn {
+    background-color: #28a745;
+    color: #fff;
+    margin-top: 20px; /* Space above the element */  
+      margin-bottom: 40px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #218838;
+}
+
+.cart {
+
+    border: 2px solid #0c0c0c;
+    padding: 20px;
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    border-radius: 8px;
+    margin-left: 60%;
+}
+
+
+
+.cart h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+.cart-empty {
+    color: #0b0101;
+    font-style: italic;
+}
+
+.cart-items {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.cart-items li {
+    border-bottom: 1px solid #ddd;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.total {
+    font-weight: bold;
+    margin-top: 15px;
+    text-align: center;
+}
